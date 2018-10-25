@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Compgoparts_Automation" verbose="3" parallel="false">
+
+
+	<test name="Compgoparts_Automation" preserve-order="true">
+		<parameter name="browser" value="chrome" />
+  	<!-- <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups> -->
+		<classes>
+			<class name="com.compgoparts.testscripts.TestSuite">
+				<methods>
+				   <include name="QRCode"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>	
+	<!-- <listeners>
+	    <listener class-name="com.compgoparts.listeners.AnnotationTransformer"></listener>
+       <listener class-name="com.compgoparts.listeners.ExtentReporterNg"/>
+  </listeners> -->
+  </suite>

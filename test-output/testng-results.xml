@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=========]]>
+    </line>
+  </reporter-output>
+  <suite name="Compgoparts_Automation" duration-ms="22622" started-at="2018-07-24T14:05:27Z" finished-at="2018-07-24T14:05:50Z">
+    <groups>
+    </groups>
+    <test name="Compgoparts_Automation" duration-ms="22622" started-at="2018-07-24T14:05:27Z" finished-at="2018-07-24T14:05:50Z">
+      <class name="com.compgoparts.testscripts.TestSuite">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.compgoparts.testscripts.TestSuite@16293aa2]" name="setUp" is-config="true" duration-ms="16835" started-at="2018-07-24T19:35:27Z" finished-at="2018-07-24T19:35:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="QRCode()[pri:0, instance:com.compgoparts.testscripts.TestSuite@16293aa2]" name="QRCode" duration-ms="705" started-at="2018-07-24T19:35:44Z" description="QRCode" finished-at="2018-07-24T19:35:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QRCode -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.compgoparts.testscripts.TestSuite@16293aa2]" name="close" is-config="true" duration-ms="5016" started-at="2018-07-24T19:35:45Z" finished-at="2018-07-24T19:35:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.compgoparts.testscripts.TestSuite -->
+    </test> <!-- Compgoparts_Automation -->
+  </suite> <!-- Compgoparts_Automation -->
+</testng-results>

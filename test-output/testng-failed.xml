@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="3" name="Failed suite [Compgoparts_Automation]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Compgoparts_Automation(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.compgoparts.testscripts.TestSuite">
+        <methods>
+          <include name="close"/>
+          <include name="setUp"/>
+          <include name="emailProducts" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.compgoparts.testscripts.TestSuite -->
+    </classes>
+  </test> <!-- Compgoparts_Automation(failed) -->
+</suite> <!-- Failed suite [Compgoparts_Automation] -->
