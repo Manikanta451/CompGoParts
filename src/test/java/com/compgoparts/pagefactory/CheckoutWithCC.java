@@ -107,6 +107,7 @@ public class CheckoutWithCC extends AddToCart implements reusable {
 				explicitWaitVisible(shipmethodslabel);
 				webTableContent(webtable);
 				nexttocc.click();
+				
 			} catch (NoSuchElementException e) {
 				webTableContent(webtable);
 				nexttocc.click();
